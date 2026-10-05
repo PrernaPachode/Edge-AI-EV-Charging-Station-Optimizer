@@ -61,13 +61,8 @@ Because decisions are made at the edge, each bay keeps working during a brief co
 
 ## Project Structure
 
-```
-Edge-AI-EV-Charging-Station-Optimizer/
-├── BAY1/esp32_blink/      # Firmware + Wokwi setup for Bay 1
-├── Bay2/esp32_blink/      # Firmware + Wokwi setup for Bay 2
-├── Bay3/esp32_blink/      # Firmware + Wokwi setup for Bay 3
-└── README.md
-```
+<img width="1600" height="900" alt="WhatsApp Image 2026-10-05 at 7 42 14 PM" src="https://github.com/user-attachments/assets/5636164d-1fd7-4dc8-8f71-72106b5cffb4" />
+
 
 Each bay folder follows the same modular layout:
 
