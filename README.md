@@ -29,7 +29,7 @@ Because decisions are made at the edge, each bay keeps working during a brief co
 
 | Layer | Technologies |
 |---|---|
-| Hardware | ESP32, ACS712 current sensor, voltage sensing (divider / ZMPT101B), DHT22, relay, push buttons, LEDs |
+| Hardware | ESP32, Potentiometer (current, voltage), DHT22, relay, push buttons, LEDs |
 | Firmware | C/C++ (Arduino framework), PlatformIO |
 | Libraries | PubSubClient (MQTT), ArduinoJson |
 | Edge AI | Pre-trained model exported as C code (`edge_ai.h`) |
