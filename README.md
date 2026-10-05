@@ -73,10 +73,11 @@ Each bay folder follows the same modular layout:
 
 ## Screenshots
 
-<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a035195-f4a9-48e7-a4b6-c42bf6035491" />
-<img width="1916" height="862" alt="image" src="https://github.com/user-attachments/assets/3465ad76-c8e8-4d4b-84cd-1d7587cb7a63" />
-<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/1d5b9b47-bc09-48e7-bac4-9367589ffe88" />
-<img width="1917" height="868" alt="image" src="https://github.com/user-attachments/assets/42607c4d-1139-4ef6-bdd5-5c85bf2a28e2" />
+<img width="940" height="479" alt="image" src="https://github.com/user-attachments/assets/999635d8-f7fe-467c-9876-5368352a1b48" />
+<img width="940" height="425" alt="image" src="https://github.com/user-attachments/assets/286e1c62-77c3-4a31-ba7a-26080f85ce61" />
+<img width="940" height="413" alt="image" src="https://github.com/user-attachments/assets/46b39e3c-316c-4340-bb1b-9a2e58d77b38" />
+<img width="940" height="423" alt="image" src="https://github.com/user-attachments/assets/68b7dad5-5ec0-457a-bb60-1d2e8554764a" />
+
 
 | File | Purpose |
 |---|---|
