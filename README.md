@@ -1,4 +1,4 @@
-# SmartCharge AI – Edge AI Based Smart EV Charging Station Optimizer
+# Edge AI Based Smart EV Charging Station Optimizer
 
 A 3-bay EV charging station prototype that uses **ESP32, Edge AI, MQTT and ThingsBoard** to monitor charging demand and manage power across multiple charging bays.
 ## Problem Statement
@@ -37,32 +37,6 @@ Because decisions are made at the edge, each bay keeps working during a brief co
 | Cloud | ThingsBoard (dashboards, rule chains, alarms, RPC) |
 | Simulation | Wokwi (VS Code extension) |
 
-## Project Structure
-
-```
-Edge-AI-EV-Charging-Station-Optimizer/
-├── BAY1/esp32_blink/      # Firmware + Wokwi setup for Bay 1
-├── Bay2/esp32_blink/      # Firmware + Wokwi setup for Bay 2
-├── Bay3/esp32_blink/      # Firmware + Wokwi setup for Bay 3
-└── README.md
-```
-
-Each bay folder follows the same modular layout:
-
-| File | Purpose |
-|---|---|
-| `config.h` | Pins, thresholds and network settings |
-| `State.cpp` | Bay state (FREE / CHARGING) and status handling |
-| `Peripherals.cpp` | Sensor, relay, button and LED handling |
-| `Telemetry.cpp` | Builds and publishes telemetry |
-| `Network.h` | Wi-Fi and MQTT connection |
-| `edge_ai.h` | Exported Edge AI model (runs on the ESP32) |
-| `optimization.h` | ALLOW / THROTTLE / DEFER decision logic |
-| `rpc.cpp` | Remote commands from ThingsBoard |
-| `test/wokwi.toml`, `test/diagram.json` | Wokwi simulation configuration |
-
-> The Edge AI model was trained offline and is included as the exported header `edge_ai.h`. No training script is included in this repository.
-
 ## Installation & Setup
 
 1. Install [Visual Studio Code](https://code.visualstudio.com/).
@@ -85,6 +59,18 @@ Each bay folder follows the same modular layout:
 6. Open your ThingsBoard dashboard to see live telemetry, alarms and RPC controls.
 7. Repeat for Bay2 and Bay3 (each bay uses its own device token).
 
+## Project Structure
+
+```
+Edge-AI-EV-Charging-Station-Optimizer/
+├── BAY1/esp32_blink/      # Firmware + Wokwi setup for Bay 1
+├── Bay2/esp32_blink/      # Firmware + Wokwi setup for Bay 2
+├── Bay3/esp32_blink/      # Firmware + Wokwi setup for Bay 3
+└── README.md
+```
+
+Each bay folder follows the same modular layout:
+
 ## Screenshots
 
 <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a035195-f4a9-48e7-a4b6-c42bf6035491" />
@@ -92,13 +78,26 @@ Each bay folder follows the same modular layout:
 <img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/1d5b9b47-bc09-48e7-bac4-9367589ffe88" />
 <img width="1917" height="868" alt="image" src="https://github.com/user-attachments/assets/42607c4d-1139-4ef6-bdd5-5c85bf2a28e2" />
 
-
-
-
-
-| Wokwi simulation | ThingsBoard dashboard |
+| File | Purpose |
 |---|---|
-| `![Wokwi](screenshots/wokwi.png)` | `![Dashboard](screenshots/dashboard.png)` |
+| `config.h` | Pins, thresholds and network settings |
+| `State.cpp` | Bay state (FREE / CHARGING) and status handling |
+| `Peripherals.cpp` | Sensor, relay, button and LED handling |
+| `Telemetry.cpp` | Builds and publishes telemetry |
+| `Network.h` | Wi-Fi and MQTT connection |
+| `edge_ai.h` | Exported Edge AI model (runs on the ESP32) |
+| `optimization.h` | ALLOW / THROTTLE / DEFER decision logic |
+| `rpc.cpp` | Remote commands from ThingsBoard |
+| `test/wokwi.toml`, `test/diagram.json` | Wokwi simulation configuration |
+
+> The Edge AI model was trained offline and is included as the exported header `edge_ai.h`. No training script is included in this repository.
+
+## Screenshots
+
+<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a035195-f4a9-48e7-a4b6-c42bf6035491" />
+<img width="1916" height="862" alt="image" src="https://github.com/user-attachments/assets/3465ad76-c8e8-4d4b-84cd-1d7587cb7a63" />
+<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/1d5b9b47-bc09-48e7-bac4-9367589ffe88" />
+<img width="1917" height="868" alt="image" src="https://github.com/user-attachments/assets/42607c4d-1139-4ef6-bdd5-5c85bf2a28e2" />
 
 ## Team Members
 
