@@ -92,12 +92,6 @@ Each bay folder follows the same modular layout:
 
 > The Edge AI model was trained offline and is included as the exported header `edge_ai.h`. No training script is included in this repository.
 
-## Screenshots
-
-<img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/6a035195-f4a9-48e7-a4b6-c42bf6035491" />
-<img width="1916" height="862" alt="image" src="https://github.com/user-attachments/assets/3465ad76-c8e8-4d4b-84cd-1d7587cb7a63" />
-<img width="1917" height="862" alt="image" src="https://github.com/user-attachments/assets/1d5b9b47-bc09-48e7-bac4-9367589ffe88" />
-<img width="1917" height="868" alt="image" src="https://github.com/user-attachments/assets/42607c4d-1139-4ef6-bdd5-5c85bf2a28e2" />
 
 ## Team Members
 
