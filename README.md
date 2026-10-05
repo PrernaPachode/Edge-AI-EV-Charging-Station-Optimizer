@@ -64,8 +64,6 @@ Because decisions are made at the edge, each bay keeps working during a brief co
 <img width="1600" height="900" alt="WhatsApp Image 2026-10-05 at 7 42 14 PM" src="https://github.com/user-attachments/assets/5636164d-1fd7-4dc8-8f71-72106b5cffb4" />
 
 
-Each bay folder follows the same modular layout:
-
 ## Screenshots
 
 <img width="940" height="479" alt="image" src="https://github.com/user-attachments/assets/999635d8-f7fe-467c-9876-5368352a1b48" />
