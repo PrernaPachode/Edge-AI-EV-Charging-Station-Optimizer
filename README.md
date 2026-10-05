@@ -100,3 +100,8 @@ Because decisions are made at the edge, each bay keeps working during a brief co
 - EV-owner app showing live bay availability and estimated wait time
 - Over-the-air (OTA) model and firmware updates
 - Live electricity tariff integration for cost-aware scheduling
+  
+## Limitations
+- The current prototype is mainly simulation-based.
+- The current prototype does not include physical charging hardware testing.
+- The Edge AI model can be further improved and optimized using real charging data.
